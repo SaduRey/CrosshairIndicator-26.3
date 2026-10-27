@@ -16,8 +16,8 @@ public class CrosshairIndicatorMobs implements ClientModInitializer {
 
     // Ajusta estos valores para cambiar el aspecto (en pixeles de GUI).
     private static final int CROSSHAIR_SIZE = 15; // tamano del sprite de la mira vanilla
-    private static final int PAD = -1;             // separacion entre la mira y los corchetes
-    private static final int ARM = 3;             // largo de cada segmento de esquina
+    private static final int PAD = -2;             // separacion entre la mira y los corchetes
+    private static final int ARM = 2;             // largo de cada segmento de esquina
     private static final int COLOR = 0xFFFFFFFF;  // blanco opaco
 
     @Override
